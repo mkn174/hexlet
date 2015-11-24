@@ -55,8 +55,7 @@ public class Field {
 
     	public void setFigure(final Point point, final String figure) {
 		// BEGIN (write your solution here)
-			public String setFigure(Figure figure) {
-					
+			
 			if (p.x == 0 && p.y == 0) return f00 = figure;
 						
 			if (p.x == 1 && p.y == 0) return f10 = figure;
@@ -76,7 +75,7 @@ public class Field {
 			if (p.x == 2 && p.y == 2) return f22 = figure;
 				
 			return " ";
-			}
+			
 		// END	
 
 		}
